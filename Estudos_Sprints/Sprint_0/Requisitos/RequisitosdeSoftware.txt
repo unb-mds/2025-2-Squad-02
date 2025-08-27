@@ -1,0 +1,95 @@
+Requisitos de Software
+- Levantamento de Requisitos: Fase inicial e mais importante. Diz o que o cliente pode querer, o que ele deseja e as regras
+do negócio. Precisamos saber os requisitos que o software deve atender, onde o usuário e o desenvolvedor devem saber qual visão deve ser observada.
+- A tirinha no pdf demonstra bem o que acontece no processo e isso deve ser evitado. Por isso, levantar requisitos é necessário para identificar as necessidades do usuário, verificar a viabilidade, alocar funções para os membros do projeto, criar o modelo de sistema que será usado e estabelecer cronogramas e restrições. (Estudo de viabilidade).
+- O requisito é, basicamente, uma declaração que descreve uma capacidade, uma característica ou uma restrição de um sistema de software. Assim, ela define o comportamento do sistema.
+- Identificamos os requisitos a partir dos domínios de negócio (Onde o projeto está sendo desenvolvido, por exemplo, o software será na área médica? É o "mundo real"). Os stakeholders (pessoas interessadas, como clientes e empresas) auxiliam a descobrir como deve ser o software.
+-Problemas comuns:
+	. Comunicação do cliente com o analista.
+	. Evolução dos Requisitos
+	. Gerenciamento de Alterações
+	. Falta de Conhecimento sobre o domínio****
+- Levantando requisitos, recebemos um documento que abarcará o sistema (pode ser casos de uso). Ele estabelece o escopo do sistema, coisas que fazem e não fazem parte do sistema.
+	. Elicitação dos requisitos: Comunicação com os stakeholders para determinar os requisitos
+	. Análise dos Requisitos: Verificar se os requisitos são necessários, ambíguos ou possíveis, além de resolver os problemas
+	. Registro dos Requisitos: Documentação dos requisitos.
+
+- Após essas definições, podemos dizer que esses requisitos são definidos em "Requisitos Funcionais" e "Requisitos Não-Funcionais".
+**Requisitos Funcionais** - RF
+	> Define o que um sistema deve fazer, suas interações com o usuário e outros sistemas. Sem eles, um sistema pode nem funcionar.
+	> Exemplo:
+	 O sistema deve permitir que os usuários pesquisem produtos por nome, categoria ou marca.
+	 O sistema deve permitir que os clientes adicionem produtos a um carrinho de compras.
+	 O sistema deve calcular o valor total da compra, incluindo frete e impostos.
+	 O sistema deve processar pagamentos via cartão de crédito e boleto bancário.
+	 O sistema deve enviar um e-mail de confirmação ao cliente após a conclusão de um pedido.
+
+**Requisitos Não-Funcionais** - RNF
+	> Define como o sistema deve realizar as suas funções, ou seja, atributos de qualidade.
+	> Dentre eles, temos: Desempenho, Escalabilidade, Confiabilidade, Portabilidade, Usabilidade e Segurança. Esses requisitos são, normalmente, mensuráveis.
+	> Dentro dessas características, temos vários requisitos como:
+	  Requisitos de Produtos:
+		/Requisitos de Usabilidade
+		/Requisitos de Eficiência
+		/Requisitos de Portabilidade
+		/Requisitos de Confiabilidade
+	  Requisitos Externos
+		/Requisitos de interoperabilidade
+		/Requisitos éticos
+		/Requisitos Legais
+	  Requisitos Organizacionais
+		/Requisitos de Entrega
+		/Requisitos de implementação
+		/Requisitos de padrões
+	> Todos vão no mesmo documento, normalmente.
+	> Exemplos:
+		Todas as senhas dos usuários devem ser armazenadas de forma criptografada no banco de dados.
+		O sistema deve bloquear um usuário após 3 tentativas de login malsucedidas.
+		O sistema web deve ser compatível com os navegadores Google Chrome, Mozilla Firefox e Microsoft Edge.
+		O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD).
+		
+Requisito Funcionais       X       Requisitos Não-Funcionais
+.Mandatórios                       .Não-mandatórios
+.Visualizados em casos de          .Atributos (Características)
+uso                                
+.Funcionalidade de Produto         .Propriedades do Produto
+.Relativamente Fáceis de           .Mais difíceis de descobrir,
+descobrir			   no geral
+.Verbos				   
+.Necessidades do Negócio	   .Expectativas do negócio
+
+
+- Com essa lógica bem definida, podemos levantar algumas técnicas que cada uma deve ser estudada individualmente para podermos fazer um requisito.
+	. Workshops de Requisito
+	. Entrevistas com Stakeholders
+	. Questionários
+	. Brainstorms
+	. Prototipagem
+	. Etnografia
+	. JAD (Joint Application Design)
+	. Método VORD (Viewpoint-Oriented Requirements Definition)
+
+--------------------------------------------------------------------------------------------------------------------------
+>> Resumo Final
+
+Levantamento de Requisitos: fase inicial e mais importante, onde se identificam as necessidades do usuário, regras de negócio, viabilidade e escopo do sistema.
+
+Problemas comuns: comunicação deficiente com o cliente, evolução constante dos requisitos, gerenciamento de alterações e falta de conhecimento do domínio.
+
+Elicitação, Análise e Registro de Requisitos: comunicação com stakeholders, verificação de viabilidade/clareza e documentação final.
+
+Requisitos Funcionais (RF): descrevem o que o sistema deve fazer. Ex.: pesquisar produtos, adicionar ao carrinho, calcular compra, processar pagamento, enviar e-mail de confirmação.
+
+Requisitos Não-Funcionais (RNF): descrevem como o sistema deve se comportar. Incluem desempenho, escalabilidade, confiabilidade, portabilidade, usabilidade e segurança. Ex.: senhas criptografadas, bloqueio após 3 tentativas, compatibilidade com navegadores, conformidade com LGPD.
+
+Comparação RF x RNF:
+
+RF → mandatórios, ligados ao negócio, fáceis de descobrir, descritos por verbos.
+
+RNF → não obrigatórios, atributos de qualidade, mais difíceis de identificar.
+
+Técnicas para levantamento de requisitos: workshops, entrevistas, questionários, brainstorm, prototipagem, etnografia, JAD, VORD.
+
+JAD -> É uma técnica de levantamento de requisitos baseada em workshops colaborativos, onde usuários, analistas e desenvolvedores trabalham juntos para definir o sistema. Quando há muitos stakeholders e necessidade de alinhamento rápido.
+
+VORD -> É um método orientado a pontos de vista (viewpoints), usado para estruturar os requisitos com base nas diferentes perspectivas dos stakeholders. Cada “viewpoint” representa uma perspectiva (ex.: cliente, administrador, sistema externo). Em sistemas complexos, com múltiplos usuários e diferentes expectativas.
