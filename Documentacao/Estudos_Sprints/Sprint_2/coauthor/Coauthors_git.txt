@@ -2,5 +2,13 @@ Faça as alterações normalmente.
 dê commit e faça o seguinte:
 git show <id> (você acha isso no commit que a pessoa já fez ou no Discord)
 
-git commit -m "Mensagem do commit" -m "Co-authored-by: Pedro Araujo <pedroalucena04@gmail.com>" "Co-authored-by: Fofodoido <rodrigohenriquedonato@gmail.com>" ...
+git add .
+git commit
+
+(Vai abrir um terminal, dentro dele, você coloca:
+Nome do Commit
+
+Co-authored-by: Pedro Araujo <pedroalucena04@gmail.com>
+Co-authored-by: Isabella <isalima2004@gmail.com>
+Co-authored-by: GiuliaPaulucci <guilia.paulucci04@gmail.com>
 
