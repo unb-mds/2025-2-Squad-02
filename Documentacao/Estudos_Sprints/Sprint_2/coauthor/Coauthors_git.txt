@@ -1,0 +1,8 @@
+Faça as alterações normalmente.
+dê commit e faça o seguinte:
+git show <id> (você acha isso no commit que a pessoa já fez ou no Discord)
+
+git commit -m "Mensagem do commit
+
+Co-authored-by: Nome Sobrenome <email@exemplo.com> (isso é o id)
+Co-authored-by: Outro Nome <outroemail@exemplo.com>"
