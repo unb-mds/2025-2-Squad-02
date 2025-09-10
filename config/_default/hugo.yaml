@@ -1,3 +1,4 @@
+
 baseURL: "https://unb-mds.github.io/Projeto-B.I.I.A/"
 languageCode: "pt-br"
 title: "MDS - Documentação"
@@ -5,6 +6,7 @@ theme: "mds"
 
 # Configurações básicas
 contentDir: "docs/content"
+publishDir: "." # Publicar na raiz
 disableKinds: ["taxonomy", "term"]
 enableRobotsTXT: true
 
