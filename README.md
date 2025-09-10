@@ -1,10 +1,10 @@
+
 # Projeto B.I.I.A
 
-# Estudos e Documentação:
+"Plataforma web para análise de dados públicos municipais relacionados à tecnologia educacional"
 
-- Os documentos são produzidos de acordo com as metas das sprints;
+__Para acessar nossa página, [Clique](https://unb-mds.github.io/Projeto-B.I.I.A/) aqui!__
 
-- Todos os arquivos e anotações serão alocados na nossa pasta entitulada "Documentação". Em caso de resumo sobre algum conteúdo, devem estar acrescidos na aba "Estudos_Sprints". Em caso de documentação sobre reuniões, funcionalidades, e especificidades, alocaremos em outras pastas com os nomes específicos.
 
 
 
