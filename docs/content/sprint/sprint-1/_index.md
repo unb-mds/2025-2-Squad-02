@@ -1,24 +1,25 @@
 ---
 title: "Sprint 1"
-description: "Documentação da Sprint 1"
+description: "Desenvolvimento da Infraestrutura Base"
 date: 2025-09-09
 draft: false
 ---
 
 # Sprint 1
 
-## Período
-03/09/25 a 10/09/25
+## Objetivos
+- Implementação da estrutura base do projeto
+- Configuração do ambiente de desenvolvimento
+- Início do desenvolvimento das funcionalidades core
+- Definição dos padrões de código
 
-## Objetivos da Sprint
+## Resultados Esperados
+- Estrutura base do projeto implementada
+- Ambiente de desenvolvimento configurado
+- Primeiras funcionalidades em desenvolvimento
+- Padrões de código estabelecidos
 
-- Aprendizado sobre metodologia ágil (Scrum)
-- Estudos sobre manipulação e estruturação de dados
-- Familiarização com ferramentas (Markdown, Figma)
-- Compreensão de APIs e métricas open source
-- Desenvolvimento de habilidades técnicas fundamentais
-
-## Navegação
+## Documentação
 - [Reuniões](./reunioes)
 - [Issues](./issues)
 - [Material de Estudos](./material-estudos)
