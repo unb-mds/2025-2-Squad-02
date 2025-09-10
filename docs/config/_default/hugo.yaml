@@ -1,6 +1,6 @@
 baseURL: "https://unb-mds.github.io/Projeto-B.I.I.A/"
 languageCode: "pt-br"
-title: "MDS - Documentação"
+title: "Buscadora de Investimento de Inteligência Artificial"
 
 # Configurações básicas
 disableKinds: ["taxonomy", "term"]
