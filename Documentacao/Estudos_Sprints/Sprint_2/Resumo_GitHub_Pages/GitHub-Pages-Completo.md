@@ -138,15 +138,15 @@ Para ativar o GitHub Pages, é necessário possuir um repositório.
 Para isso, clique na sua foto de perfil no canto superior direito no **github.com** e depois vá em **"Repositories"**.  
 Em seguida, clique em <span style="color:green">"New"</span>.
 
-![](Tutorial-Github-Pages-main/imagens/1_new_repository.png)
+![](imagens/1_new_repository.png)
 
 Em seguida, digite o nome do seu repositório e aperte em <span style="color:green">"Create repository"</span>.
 
-![](Tutorial-Github-Pages-main/imagens/2_create_repository.png)
+![](imagens/2_create_repository.png)
 
 Você vai precisar de um arquivo **"index.html"** para que seja possível ativar o GitHub Pages, então clique em <span style="color:blue">"upload an existing file"</span> e selecione o arquivo desejado.
 
-![](Tutorial-Github-Pages-main/imagens/3_upload_file.png)
+![](imagens/3_upload_file.png)
 
 Depois, aperte em <span style="color:green">"Commit changes"</span>.
 
@@ -156,16 +156,16 @@ Depois, aperte em <span style="color:green">"Commit changes"</span>.
 
 Se você tiver feito tudo certo, seu arquivo deve aparecer na aba inicial do seu repositório.
 
-![](Tutorial-Github-Pages-main/imagens/4_tela_inicial.png)
+![](imagens/4_tela_inicial.png)
 
 Agora clique em **"Settings"** > **"Pages"** e modifique a **Branch** para a **main** e depois aperte em **"Save"**.
 
-![](Tutorial-Github-Pages-main/imagens/5_settings.png)
+![](imagens/5_settings.png)
 
 Depois de algum tempo, atualize a página e o link da sua página deve aparecer.  
 Aperte em **"Visit site"**.
 
-![](Tutorial-Github-Pages-main/imagens/6_visit_site.png)
+![](imagens/6_visit_site.png)
 
 ---
 
@@ -173,4 +173,4 @@ Aperte em **"Visit site"**.
 
 Agora você pode ver sua bela página.
 
-![I](imagens/7_pagina.png)
+![](imagens/7_pagina.png)
