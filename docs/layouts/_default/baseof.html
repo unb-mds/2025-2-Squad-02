@@ -2,9 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>{{ .Title }}</title>
+    <title>B.I.I.A - Buscadora de Investimentos em Inteligência Artificial</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Cache bust: {{ now.Unix }} -->
     <style>
         body {
             font-family: -apple-system, system-ui, sans-serif;
@@ -31,16 +30,21 @@
             color: #dc2626;
             background-color: #e9ecef;
         }
+        h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 1em;
+        }
     </style>
 </head>
 <body>
     <nav>
-        <!-- Navegação com URLs absolutas fixas -->
         <a href="/">Home</a>
         <a href="/sprint/">Sprints</a>
         <a href="/arquitetura/">Arquitetura</a>
     </nav>
     <main>
+        <h1>B.I.I.A - Buscadora de Investimentos em Inteligência Artificial</h1>
         {{ .Content }}
     </main>
 </body>
