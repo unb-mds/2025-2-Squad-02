@@ -3,6 +3,8 @@ title: "B.I.I.A - Buscadora de Investimentos em Inteligência Artificial"
 description: "Plataforma web para análise de atos públicos municipais relacionados à tecnologia educacional"
 date: 2025-09-09
 draft: false
+
+# B.I.I.A - Buscadora de Investimentos em Inteligência Artificial
 ---
 
 ## Sobre o Projeto
