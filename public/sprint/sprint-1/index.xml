@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sprint 1 on MDS - Documentação</title>
+    <link>http://localhost:1313/teste/sprint/sprint-1/</link>
+    <description>Recent content in Sprint 1 on MDS - Documentação</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/teste/sprint/sprint-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Issues da Sprint 1</title>
+      <link>http://localhost:1313/teste/sprint/sprint-1/issues/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teste/sprint/sprint-1/issues/</guid>
+      <description>&lt;h1 id=&#34;issues-da-sprint-1&#34;&gt;Issues da Sprint 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;concluídas&#34;&gt;Concluídas&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Estudos Sobre Guia do Scrum&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsável: @ananunesv&lt;/li&gt;&#xA;&lt;li&gt;Status: Concluído&lt;/li&gt;&#xA;&lt;li&gt;Tag: research&lt;/li&gt;&#xA;&lt;li&gt;Sprint: Sprint 1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Estudos Sobre Manipulação de Dados&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsável: @ananunesv&lt;/li&gt;&#xA;&lt;li&gt;Status: Concluído&lt;/li&gt;&#xA;&lt;li&gt;Tag: research&lt;/li&gt;&#xA;&lt;li&gt;Sprint: Sprint 1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Estudos sobre Markdown&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsável: @ananunesv&lt;/li&gt;&#xA;&lt;li&gt;Status: Concluído&lt;/li&gt;&#xA;&lt;li&gt;Tag: research&lt;/li&gt;&#xA;&lt;li&gt;Sprint: Sprint 1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Estudos sobre Básico de Figma&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsável: @ananunesv&lt;/li&gt;&#xA;&lt;li&gt;Status: Concluído&lt;/li&gt;&#xA;&lt;li&gt;Tag: research&lt;/li&gt;&#xA;&lt;li&gt;Sprint: Sprint 1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Estudos de API&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsável: @ananunesv&lt;/li&gt;&#xA;&lt;li&gt;Status: Concluído&lt;/li&gt;&#xA;&lt;li&gt;Tag: research&lt;/li&gt;&#xA;&lt;li&gt;Sprint: Sprint 1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Estudos sobre Métrica de Open Source&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Material de Estudos - Sprint 1</title>
+      <link>http://localhost:1313/teste/sprint/sprint-1/material-estudos/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teste/sprint/sprint-1/material-estudos/</guid>
+      <description>&lt;h1 id=&#34;material-de-estudos---sprint-1&#34;&gt;Material de Estudos - Sprint 1&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;EM CONSTRUÇÃO&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reuniões da Sprint 1</title>
+      <link>http://localhost:1313/teste/sprint/sprint-1/reunioes/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teste/sprint/sprint-1/reunioes/</guid>
+      <description>&lt;h1 id=&#34;reuniões-da-sprint-1&#34;&gt;Reuniões da Sprint 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;relatório-da-reunião&#34;&gt;Relatório da Reunião&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Não documentado&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;resumo&#34;&gt;Resumo&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Não documentado&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sprint: 1&lt;/li&gt;&#xA;&lt;li&gt;Período: 03/09/25 a 10/09/25&lt;/li&gt;&#xA;&lt;li&gt;Status: Concluído&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;daily-scrum&#34;&gt;Daily Scrum&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Não documentado&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
