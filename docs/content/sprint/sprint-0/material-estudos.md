@@ -1,10 +1,10 @@
 ---
-title: "Material de Estudos - Sprint 01"
-description: "Material de apoio e estudos para a Sprint 01"
+title: "Material de Estudos - Sprint 0"
+description: "Material de apoio e estudos para a Sprint 0"
 date: 2025-09-09
 draft: false
 ---
 
-# Material de Estudos - Sprint 01
+# Material de Estudos - Sprint 0
 
 **EM CONSTRUÇÃO**
