@@ -395,17 +395,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link {{ if .IsHome }}active text-dark fw-semibold{{ end }}" href="/">
+                        <a class="nav-link {{ if .IsHome }}active text-dark fw-semibold{{ end }}" href="{{ "/" | relURL }}">
                             <i class="bi bi-house-fill me-1"></i>Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/sprint/">
+                        <a class="nav-link" href="{{ "/sprint/" | relURL }}">
                             <i class="bi bi-speedometer2 me-1"></i>Sprints
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/arquitetura/">
+                        <a class="nav-link" href="{{ "/arquitetura/" | relURL }}">
                             <i class="bi bi-diagram-3 me-1"></i>Arquitetura
                         </a>
                     </li>
@@ -428,10 +428,10 @@
                     <h1 class="display-4 fw-bold mb-4">{{ .Site.Params.title | default .Site.Title }}</h1>
                     <p class="lead mb-4">{{ .Site.Params.description }}</p>
                     <div class="d-flex gap-3 justify-content-center">
-                        <a href="/sprint/" class="btn btn-light btn-lg px-4">
+                        <a href="{{ "/sprint/" | relURL }}" class="btn btn-light btn-lg px-4">
                             <i class="bi bi-speedometer2 me-2"></i>Ver Sprints
                         </a>
-                        <a href="/arquitetura/" class="btn btn-outline-light btn-lg px-4">
+                        <a href="{{ "/arquitetura/" | relURL }}" class="btn btn-outline-light btn-lg px-4">
                             <i class="bi bi-diagram-3 me-2"></i>Arquitetura
                         </a>
                     </div>
@@ -466,17 +466,17 @@
                 <div class="col-lg-2 col-md-6 mb-4">
                     <h6 class="text-uppercase mb-3 text-white-50">Navegação</h6>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="/" class="text-light text-decoration-none opacity-75">Home</a></li>
-                        <li class="mb-2"><a href="/sprint/" class="text-light text-decoration-none opacity-75">Sprints</a></li>
-                        <li class="mb-2"><a href="/arquitetura/" class="text-light text-decoration-none opacity-75">Arquitetura</a></li>
+                        <li class="mb-2"><a href="{{ "/" | relURL }}" class="text-light text-decoration-none opacity-75">Home</a></li>
+                        <li class="mb-2"><a href="{{ "/sprint/" | relURL }}" class="text-light text-decoration-none opacity-75">Sprints</a></li>
+                        <li class="mb-2"><a href="{{ "/arquitetura/" | relURL }}" class="text-light text-decoration-none opacity-75">Arquitetura</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h6 class="text-uppercase mb-3 text-white-50">Recursos</h6>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="/arquitetura/decisoes/" class="text-light text-decoration-none opacity-75">Decisões</a></li>
-                        <li class="mb-2"><a href="/arquitetura/diagramas/" class="text-light text-decoration-none opacity-75">Diagramas</a></li>
-                        <li class="mb-2"><a href="/debug/" class="text-light text-decoration-none opacity-75">Debug</a></li>
+                        <li class="mb-2"><a href="{{ "/arquitetura/decisoes/" | relURL }}" class="text-light text-decoration-none opacity-75">Decisões</a></li>
+                        <li class="mb-2"><a href="{{ "/arquitetura/diagramas/" | relURL }}" class="text-light text-decoration-none opacity-75">Diagramas</a></li>
+                        <li class="mb-2"><a href="{{ "/debug/" | relURL }}" class="text-light text-decoration-none opacity-75">Debug</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 mb-4">
