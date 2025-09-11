@@ -1,6 +1,6 @@
 baseURL: "https://unb-mds.github.io/Projeto-P.I.T.E.R/"
 languageCode: "pt-br"
-title: "P.I.T.E.R - Buscadora de Investimentos em IA"
+title: "P.I.T.E.R - Radar das tecnologias na educação nos municípios"
 
 # Configurações básicas
 disableKinds: ["taxonomy", "term"]
