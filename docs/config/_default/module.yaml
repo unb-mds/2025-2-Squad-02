@@ -1,1 +1,3 @@
+imports:
 
+  - path: "github.com/hugolify/hugolify-theme"
