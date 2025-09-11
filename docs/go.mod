@@ -1,4 +1,4 @@
-module github.com/hugolify/hugolify-template
+module github.com/unb-mds/Projeto-P.I.T.E.R
 
 go 1.21
 
