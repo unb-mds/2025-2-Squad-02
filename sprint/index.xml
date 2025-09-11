@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sprints on MDS - Documentação</title>
-    <link>http://localhost:1313/Projeto-P.I.T.E.R/sprint/</link>
-    <description>Recent content in Sprints on MDS - Documentação</description>
+    <title>Sprints on Hugolify demo</title>
+    <link>https://unb-mds.github.io/Projeto-P.I.T.E.R/sprint/</link>
+    <description>Recent content in Sprints on Hugolify demo</description>
     <generator>Hugo</generator>
-    <language>pt-br</language>
+    <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/Projeto-P.I.T.E.R/sprint/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://unb-mds.github.io/Projeto-P.I.T.E.R/sprint/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

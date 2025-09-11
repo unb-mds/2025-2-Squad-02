@@ -1,6 +1,6 @@
-baseURL: "https://unb-mds.github.io/Projeto-B.I.I.A/"
+baseURL: "https://unb-mds.github.io/Projeto-P.I.T.E.R/"
 languageCode: "pt-br"
-title: "MDS - Documentação"
+title: "P.I.T.E.R - Buscadora de Investimentos em IA"
 
 # Configurações básicas
 disableKinds: ["taxonomy", "term"]
@@ -15,13 +15,13 @@ menu:
   main:
     - identifier: "home"
       name: "Home"
-      url: "/teste/"
+      url: "/"
       weight: 1
     - identifier: "sprint"
       name: "Sprints"
-      url: "/teste/sprint/"
+      url: "/sprint/"
       weight: 2
     - identifier: "arquitetura"
       name: "Arquitetura"
-      url: "/teste/arquitetura/"
+      url: "/arquitetura/"
       weight: 3
