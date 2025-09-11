@@ -1,6 +1,6 @@
-baseURL: "https://unb-mds.github.io/Projeto-B.I.I.A/"
+baseURL: "https://unb-mds.github.io/Projeto-P.I.T.E.R/"
 languageCode: "pt-br"
-title: "B.I.I.A - Buscadora de Investimentos em Inteligência Artificial"
+title: "P.I.T.E.R - Buscadora de Investimentos em Inteligência Artificial"
 
 # Configurações básicas
 disableKinds: ["taxonomy", "term"]

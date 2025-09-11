@@ -4,7 +4,7 @@ description: "Arquivo de exemplo mostrando todos os recursos de Markdown dispon�
 date: 2025-09-11
 draft: false
 tags: ["markdown", "exemplo", "documentacao"]
-author: "Equipe B.I.I.A"
+author: "Equipe P.I.T.E.R"
 ---
 
 # Guia Completo de Markdown
@@ -37,7 +37,7 @@ Você também pode usar ~~texto riscado~~ e `código inline`.
 
 ### 3. Links e Imagens
 
-- [Link para GitHub](https://github.com/unb-mds/Projeto-B.I.I.A)
+- [Link para GitHub](https://github.com/unb-mds/Projeto-P.I.T.E.R)
 - [Link interno para Sprints](/sprint/)
 - [Link interno para Arquitetura](/arquitetura/)
 
