@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/Projeto-B.I.I.A/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Projeto-B.I.I.A/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <title>Guia Completo de Markdown - Exemplo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        nav {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        nav a {
+            margin-right: 20px;
+            color: #333;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        nav a:hover {
+            color: #dc2626;
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        
+        
+        <a href="/Projeto-B.I.I.A/">Home</a>
+        
+        <a href="/Projeto-B.I.I.A/sprint/">Sprints</a>
+        
+        <a href="/Projeto-B.I.I.A/arquitetura/">Arquitetura</a>
+        
+    </nav>
+    <main>
+        
+<h1 id="-guia-completo-de-markdown">🚀 Guia Completo de Markdown</h1>
+<p>Este é um arquivo de exemplo que demonstra <strong>todos os recursos</strong> disponíveis no Markdown para o Hugo.</p>
+<h2 id="-blocos-de-conteúdo">📋 Blocos de Conteúdo</h2>
+<h3 id="1-texto-e-formatação-básica">1. Texto e Formatação Básica</h3>
+<p><strong>Texto em negrito</strong> e <em>texto em itálico</em> são muito úteis.</p>
+<p>Você também pode usar <del>texto riscado</del> e <code>código inline</code>.</p>
+<h3 id="2-listas">2. Listas</h3>
+<h4 id="lista-não-ordenada">Lista não ordenada:</h4>
+<ul>
+<li>Item 1</li>
+<li>Item 2
+<ul>
+<li>Subitem 2.1</li>
+<li>Subitem 2.2</li>
+</ul>
+</li>
+<li>Item 3</li>
+</ul>
+<h4 id="lista-ordenada">Lista ordenada:</h4>
+<ol>
+<li>Primeiro passo</li>
+<li>Segundo passo
+<ol>
+<li>Sub-passo A</li>
+<li>Sub-passo B</li>
+</ol>
+</li>
+<li>Terceiro passo</li>
+</ol>
+<h3 id="3-links-e-imagens">3. Links e Imagens</h3>
+<ul>
+<li><a href="https://github.com/unb-mds/Projeto-B.I.I.A">Link para GitHub</a></li>
+<li><a href="/sprint/">Link interno para Sprints</a></li>
+<li><a href="/arquitetura/">Link interno para Arquitetura</a></li>
+</ul>
+<h3 id="4-citações">4. Citações</h3>
+<blockquote>
+<p>&ldquo;A inteligência artificial é a nova eletricidade da nossa era.&rdquo;</p>
+<p>— Andrew Ng</p></blockquote>
+<h3 id="5-código">5. Código</h3>
+<h4 id="código-inline">Código inline:</h4>
+<p>Use <code>npm install</code> para instalar dependências.</p>
+<h4 id="bloco-de-código-python">Bloco de código Python:</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">buscar_investimentos</span>(query):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Busca investimentos em IA usando algoritmos inteligentes
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    resultados <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> investimento <span style="color:#f92672">in</span> database:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> query<span style="color:#f92672">.</span>lower() <span style="color:#f92672">in</span> investimento<span style="color:#f92672">.</span>nome<span style="color:#f92672">.</span>lower():
+</span></span><span style="display:flex;"><span>            resultados<span style="color:#f92672">.</span>append(investimento)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> resultados
+</span></span></code></pre></div><h4 id="bloco-de-código-javascript">Bloco de código JavaScript:</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Função para filtrar dados
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">filtrarInvestimentos</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">dados</span>, <span style="color:#a6e22e">filtro</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">dados</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">item</span> =&gt; 
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">item</span>.<span style="color:#a6e22e">categoria</span>.<span style="color:#a6e22e">includes</span>(<span style="color:#a6e22e">filtro</span>)
+</span></span><span style="display:flex;"><span>    );
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><h3 id="6-tabelas">6. Tabelas</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Tecnologia</th>
+          <th>Status</th>
+          <th>Progresso</th>
+          <th>Responsável</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>React</td>
+          <td>✅ Concluído</td>
+          <td>100%</td>
+          <td>Ana</td>
+      </tr>
+      <tr>
+          <td>Python</td>
+          <td>🔄 Em Desenvolvimento</td>
+          <td>75%</td>
+          <td>João</td>
+      </tr>
+      <tr>
+          <td>Docker</td>
+          <td>⏳ Planejado</td>
+          <td>10%</td>
+          <td>Maria</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="7-elementos-html-funcionam-no-markdown">7. Elementos HTML (funcionam no Markdown!)</h3>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Conteúdo oculto que aparece quando expandido!</p>
+<!-- raw HTML omitted -->
+<h3 id="8-emoji-e-símbolos">8. Emoji e Símbolos</h3>
+<ul>
+<li>🎯 Objetivos claros</li>
+<li>📊 Análise de dados</li>
+<li>🔍 Busca inteligente</li>
+<li>💡 Inovação tecnológica</li>
+</ul>
+<h3 id="9-divisores">9. Divisores</h3>
+<hr>
+<h2 id="-como-o-hugo-processa-este-arquivo">📂 Como o Hugo Processa Este Arquivo</h2>
+<h3 id="front-matter-cabeçalho-yaml">Front Matter (Cabeçalho YAML)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;Título da página&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">description</span>: <span style="color:#e6db74">&#34;Descrição para SEO&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">date</span>: <span style="color:#e6db74">2025-09-11</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">draft</span>: <span style="color:#66d9ef">false</span>  <span style="color:#75715e"># true = não publica</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">tags</span>: [<span style="color:#e6db74">&#34;tag1&#34;</span>, <span style="color:#e6db74">&#34;tag2&#34;</span>]
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><h3 id="conteúdo-markdown">Conteúdo Markdown</h3>
+<p>Todo texto após o <code>---</code> é convertido para HTML usando os layouts em <code>layouts/</code>.</p>
+<h3 id="resultado-final">Resultado Final</h3>
+<ul>
+<li><strong>Arquivo fonte</strong>: <code>content/exemplo-markdown.md</code></li>
+<li><strong>URL gerada</strong>: <code>/exemplo-markdown/</code></li>
+<li><strong>HTML gerado</strong>: <code>public/exemplo-markdown/index.html</code></li>
+</ul>
+<hr>
+<h2 id="-recursos-avançados-do-hugo">🛠️ Recursos Avançados do Hugo</h2>
+<h3 id="recursos-avançados-do-hugo">Recursos Avançados do Hugo</h3>
+<p><strong>Observação</strong>: Shortcodes personalizados requerem definição nos layouts.</p>
+<h3 id="variáveis-do-site-processadas-pelo-hugo">Variáveis do Site (processadas pelo Hugo)</h3>
+<ul>
+<li><strong>Título do site</strong>: Será substituído pelo valor de .Site.Title</li>
+<li><strong>Data de criação</strong>: Será formatada automaticamente</li>
+<li><strong>Tags</strong>: Aparecerão como links navegáveis</li>
+</ul>
+<hr>
+<h2 id="-checklist-de-publicação">✅ Checklist de Publicação</h2>
+<p>Para que este arquivo apareça no GitHub Pages:</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> ✅ Arquivo criado em <code>content/</code></li>
+<li><input disabled="" type="checkbox"> 🔄 Executar <code>hugo --cleanDestinationDir</code></li>
+<li><input disabled="" type="checkbox"> 🔄 Copiar arquivos para diretório raiz</li>
+<li><input disabled="" type="checkbox"> 🔄 Commit e push para <code>gh-pages</code></li>
+</ul>
+<hr>
+<p><em>Este arquivo demonstra a flexibilidade total do Markdown no Hugo! 🚀</em></p>
+
+
+    </main>
+</body>
+</html>

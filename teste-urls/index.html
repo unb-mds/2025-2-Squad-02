@@ -1,479 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" class="hugolify">
-<head>
+<html>
+<head><script src="/Projeto-B.I.I.A/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Projeto-B.I.I.A/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
+    <title>🔧 Teste de URLs - Versão Atualizada</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>🔧 Teste de URLs - Versão Atualizada | B.I.I.A</title>
-    <meta name="description" content="Sistema inteligente para análise e busca de investimentos em Inteligência Artificial">
-    
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     
     <style>
-        :root {
-            --bs-primary: #6c757d;
-            --bs-secondary: #adb5bd;
-            --bs-success: #198754;
-            --bs-info: #0dcaf0;
-            --bs-warning: #ffc107;
-            --bs-danger: #dc3545;
-            --bs-light: #f8f9fa;
-            --bs-dark: #212529;
-            
-             
-            --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-            --font-family-heading: var(--font-family-base);
-            --font-weight-light: 300;
-            --font-weight-normal: 400;
-            --font-weight-medium: 500;
-            --font-weight-semibold: 600;
-            --font-weight-bold: 700;
-            
-             
-            --font-size-xs: 0.75rem;
-            --font-size-sm: 0.875rem;
-            --font-size-base: 1rem;
-            --font-size-lg: 1.125rem;
-            --font-size-xl: 1.25rem;
-            --font-size-xxl: 1.5rem;
-            --font-size-3xl: 1.875rem;
-            --font-size-4xl: 2.25rem;
-            --font-size-5xl: 3rem;
-        }
-        
-         
-        * {
-            font-family: var(--font-family-base);
-        }
-        
         body {
-            font-family: var(--font-family-base);
-            font-weight: var(--font-weight-normal);
+            font-family: -apple-system, system-ui, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
             line-height: 1.6;
-            color: var(--bs-dark);
-            background-color: #ffffff;
         }
-        
-         
-        h1, h2, h3, h4, h5, h6 {
-            font-family: var(--font-family-heading);
-            font-weight: var(--font-weight-semibold);
-            color: var(--bs-dark);
-            line-height: 1.2;
+        nav {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
         }
-        
-        h1 { font-size: var(--font-size-4xl); }
-        h2 { font-size: var(--font-size-3xl); }
-        h3 { font-size: var(--font-size-xxl); }
-        h4 { font-size: var(--font-size-xl); }
-        h5 { font-size: var(--font-size-lg); }
-        h6 { font-size: var(--font-size-base); }
-        
-         
-        .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
-            font-family: var(--font-family-heading);
-            font-weight: var(--font-weight-bold);
-        }
-        
-         
-        p {
-            font-size: var(--font-size-base);
-            margin-bottom: 1rem;
-        }
-        
-        .lead {
-            font-size: var(--font-size-lg);
-            font-weight: var(--font-weight-normal);
-        }
-        
-        small, .small {
-            font-size: var(--font-size-sm);
-        }
-        
-         
-        a {
-            color: var(--bs-primary);
+        nav a {
+            margin-right: 20px;
+            color: #333;
             text-decoration: none;
-            transition: color 0.3s ease;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
         }
-        
-        a:hover {
-            color: #5a6268;
-        }
-        
-         
-        .navbar-brand {
-            font-family: var(--font-family-heading);
-            font-weight: var(--font-weight-bold);
-            color: var(--bs-primary) !important;
-            font-size: var(--font-size-xl);
-        }
-        
-        .navbar-nav .nav-link {
-            font-family: var(--font-family-base);
-            font-weight: var(--font-weight-medium);
-            font-size: var(--font-size-base);
-            transition: color 0.3s ease;
-        }
-        
-        .navbar-nav .nav-link:hover {
-            color: var(--bs-primary) !important;
-        }
-        
-         
-        .hero {
-            background: linear-gradient(135deg, var(--bs-dark), var(--bs-secondary));
-            color: white;
-            padding: 4rem 0;
-            margin-bottom: 3rem;
-        }
-        
-        .hero h1 {
-            font-family: var(--font-family-heading);
-            font-weight: var(--font-weight-bold);
-            color: white;
-        }
-        
-        .hero p {
-            font-size: var(--font-size-lg);
-            color: rgba(255, 255, 255, 0.9);
-        }
-        
-         
-        .btn {
-            font-family: var(--font-family-base);
-            font-weight: var(--font-weight-medium);
-            font-size: var(--font-size-sm);
-            transition: all 0.3s ease;
-            border-radius: 0.375rem;
-        }
-        
-        .btn-primary {
-            background-color: var(--bs-primary);
-            border-color: var(--bs-primary);
-            color: white;
-        }
-        
-        .btn-primary:hover {
-            background-color: #5a6268;
-            border-color: #5a6268;
-            color: white;
-            transform: translateY(-2px);
-        }
-        
-        .btn-outline-primary {
-            color: var(--bs-primary);
-            border-color: var(--bs-primary);
-        }
-        
-        .btn-outline-primary:hover {
-            background-color: var(--bs-primary);
-            border-color: var(--bs-primary);
-            color: white;
-        }
-        
-         
-        .navbar-toggler {
-            border: 1px solid var(--bs-gray-400) !important;
-            color: var(--bs-dark) !important;
-            background-color: transparent !important;
-        }
-        
-        .navbar-toggler:focus,
-        .navbar-toggler:active,
-        .navbar-toggler:hover {
-            box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25) !important;
-            border-color: var(--bs-gray-500) !important;
-            background-color: rgba(108, 117, 125, 0.1) !important;
-        }
-        
-        .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2875, 85, 99, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-            width: 1.2em !important;
-            height: 1.2em !important;
-        }
-        
-        .navbar-nav .nav-link {
-            color: var(--bs-dark) !important;
-            transition: color 0.3s ease;
-        }
-        
-        .navbar-nav .nav-link:hover {
-            color: var(--bs-primary) !important;
-        }
-        
-        .navbar-nav .nav-link.active {
-            color: var(--bs-dark) !important;
-            font-weight: 600 !important;
-        }
-        
-         
-        .btn:focus,
-        .btn.focus {
-            box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25) !important;
-        }
-        
-        .navbar-light .navbar-toggler {
-            color: var(--bs-dark) !important;
-            border-color: var(--bs-gray-400) !important;
-        }
-        
-        .navbar-light .navbar-toggler:focus,
-        .navbar-light .navbar-toggler:hover {
-            box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25) !important;
-        }
-        
-         
-        .card {
-            border: none;
-            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-            transition: all 0.3s ease;
-            margin-bottom: 1.5rem;
-            font-family: var(--font-family-base);
-        }
-        
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-        }
-        
-        .card-title {
-            font-family: var(--font-family-heading);
-            font-weight: var(--font-weight-semibold);
-            color: var(--bs-dark);
-            font-size: var(--font-size-lg);
-        }
-        
-        .card-text {
-            font-size: var(--font-size-base);
-            color: var(--bs-secondary);
-        }
-        
-         
-        footer {
-            background-color: var(--bs-dark);
-            color: white;
-            padding: 3rem 0 2rem 0;
-            margin-top: 4rem;
-            font-family: var(--font-family-base);
-        }
-        
-        footer h5, footer h6 {
-            font-family: var(--font-family-heading);
-            font-weight: var(--font-weight-semibold);
-            color: white;
-        }
-        
-        footer p, footer li {
-            font-size: var(--font-size-sm);
-        }
-        
-         
-        .content-section {
-            padding: 2rem 0;
-        }
-        
-        .section-title {
-            font-family: var(--font-family-heading);
-            font-weight: var(--font-weight-semibold);
-            color: var(--bs-dark);
-            margin-bottom: 1.5rem;
-            font-size: var(--font-size-xxl);
-        }
-        
-         
-        .list-group-item {
-            border-left: 3px solid var(--bs-primary);
-            transition: all 0.3s ease;
-            font-family: var(--font-family-base);
-        }
-        
-        .list-group-item:hover {
-            background-color: var(--bs-light);
-            border-left-color: #5a6268;
-        }
-        
-        .list-group-item h6 {
-            font-weight: var(--font-weight-medium);
-        }
-        
-         
-        .badge {
-            font-size: var(--font-size-xs);
-            font-weight: var(--font-weight-medium);
-            font-family: var(--font-family-base);
-        }
-        
-         
-        .breadcrumb {
-            font-size: var(--font-size-sm);
-        }
-        
-        .breadcrumb-item a {
-            color: var(--bs-primary);
-        }
-        
-         
-        .table {
-            font-family: var(--font-family-base);
-            font-size: var(--font-size-sm);
-        }
-        
-        .table th {
-            font-weight: var(--font-weight-semibold);
-            color: var(--bs-dark);
-        }
-        
-         
-        .form-control, .form-select, .form-check-label {
-            font-family: var(--font-family-base);
-            font-size: var(--font-size-base);
-        }
-        
-         
-        @media (max-width: 768px) {
-            h1 { font-size: var(--font-size-3xl); }
-            h2 { font-size: var(--font-size-xxl); }
-            .display-4 { font-size: var(--font-size-3xl); }
-            .hero { padding: 3rem 0; }
-        }
-        
-         
-        .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-            font-family: var(--font-family-heading);
-            color: var(--bs-dark);
-        }
-        
-        .content p, .content li, .content td {
-            font-family: var(--font-family-base);
-            font-size: var(--font-size-base);
-            color: var(--bs-dark);
-        }
-        
-        .content blockquote {
-            font-family: var(--font-family-base);
-            font-style: italic;
-            border-left: 4px solid var(--bs-primary);
-            background-color: var(--bs-light);
-            padding: 1rem;
-            margin: 1.5rem 0;
-        }
-        
-        .content code {
-            font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-            font-size: var(--font-size-sm);
-            background-color: var(--bs-light);
-            padding: 0.125rem 0.375rem;
-            border-radius: 0.25rem;
-        }
-        
-        .content pre {
-            font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-            font-size: var(--font-size-sm);
-            background-color: var(--bs-dark);
-            color: white;
-            padding: 1rem;
-            border-radius: 0.375rem;
-            overflow-x: auto;
+        nav a:hover {
+            color: #dc2626;
+            background-color: #e9ecef;
         }
     </style>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="https://unb-mds.github.io/Projeto-B.I.I.A/">
-                <strong>B.I.I.A</strong>
-            </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " href="https://unb-mds.github.io/Projeto-B.I.I.A/">
-                            <i class="bi bi-house-fill me-1"></i>Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://unb-mds.github.io/Projeto-B.I.I.A/sprint/">
-                            <i class="bi bi-speedometer2 me-1"></i>Sprints
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://unb-mds.github.io/Projeto-B.I.I.A/arquitetura/">
-                            <i class="bi bi-diagram-3 me-1"></i>Arquitetura
-                        </a>
-                    </li>
-                    <li class="nav-item ms-2">
-                        <a class="btn btn-primary btn-sm text-white px-3" href="https://github.com/unb-mds/Projeto-B.I.I.A" target="_blank">
-                            <i class="bi bi-github me-1"></i>GitHub
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <nav>
+        
+        
+        <a href="/Projeto-B.I.I.A/">Home</a>
+        
+        <a href="/Projeto-B.I.I.A/sprint/">Sprints</a>
+        
+        <a href="/Projeto-B.I.I.A/arquitetura/">Arquitetura</a>
+        
     </nav>
-
-    
-    
-
-    
     <main>
-        <div class="container">
-            
-<div class="container">
-    
-    <div class="row">
-        <div class="col-12">
-            <nav aria-label="breadcrumb" class="mb-4">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="https://unb-mds.github.io/Projeto-B.I.I.A/">Home</a></li>
-                    
-                    <li class="breadcrumb-item"><a href="https://unb-mds.github.io/Projeto-B.I.I.A/">B.I.I.A - Buscadora de Investimentos em Inteligência Artificial</a></li>
-                    
-                    <li class="breadcrumb-item active" aria-current="page">🔧 Teste de URLs - Versão Atualizada</li>
-                </ol>
-            </nav>
-            
-            <div class="card border-0 shadow-sm mb-5">
-                <div class="card-body">
-                    <div class="row align-items-center">
-                        <div class="col-md-8">
-                            <h1 class="card-title mb-3">🔧 Teste de URLs - Versão Atualizada</h1>
-                            
-                        </div>
-                        <div class="col-md-4 text-md-end">
-                            
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
-    <div class="row">
-        <div class="col-lg-8">
-            <div class="card border-0 shadow-sm">
-                <div class="card-body p-4">
-                    <div class="content">
-                        <h1 id="-teste-de-urls-do-site">🔧 Teste de URLs do Site</h1>
+        
+<h1 id="-teste-de-urls-do-site">🔧 Teste de URLs do Site</h1>
 <p><strong>⏰ Página criada em:</strong> {{ now.Format &ldquo;15:04:05 - 02/01/2006&rdquo; }}</p>
 <p>Esta é uma página de teste para verificar se o GitHub Pages está servindo a versão mais recente do site.</p>
 <h2 id="-urls-de-teste">🎯 URLs de Teste</h2>
 <p>Clique nos links abaixo para testar as URLs:</p>
 <h3 id="-navegação-principal">📍 Navegação Principal</h3>
 <ul>
-<li><a href="https://unb-mds.github.io/Projeto-B.I.I.A/">🏠 Home</a></li>
-<li><a href="https://unb-mds.github.io/Projeto-B.I.I.A/sprint/">📋 Sprints</a></li>
-<li><a href="https://unb-mds.github.io/Projeto-B.I.I.A/arquitetura/">🏗️ Arquitetura</a></li>
+<li><a href="/">🏠 Home</a></li>
+<li><a href="/sprint/">📋 Sprints</a></li>
+<li><a href="/arquitetura/">🏗️ Arquitetura</a></li>
 </ul>
 <h3 id="-urls-completas-para-comparação">📍 URLs Completas (para comparação)</h3>
 <ul>
@@ -483,9 +65,9 @@
 </ul>
 <h3 id="-subpáginas-dos-sprints">📍 Subpáginas dos Sprints</h3>
 <ul>
-<li><a href="https://unb-mds.github.io/Projeto-B.I.I.A/sprint/sprint-0/">Sprint 0</a></li>
-<li><a href="https://unb-mds.github.io/Projeto-B.I.I.A/sprint/sprint-1/">Sprint 1</a></li>
-<li><a href="https://unb-mds.github.io/Projeto-B.I.I.A/sprint/sprint-2/">Sprint 2</a></li>
+<li><a href="/sprint/sprint-0/">Sprint 0</a></li>
+<li><a href="/sprint/sprint-1/">Sprint 1</a></li>
+<li><a href="/sprint/sprint-2/">Sprint 2</a></li>
 </ul>
 <h2 id="-informações-técnicas">🔍 Informações Técnicas</h2>
 <p><strong>Base URL:</strong> {{ .Site.BaseURL }}</p>
@@ -504,165 +86,7 @@
 <li>Aguarde mais alguns minutos para propagação completa</li>
 </ol>
 
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-        </div>
-        
-        
-        <div class="col-lg-4">
-            
-            
-            <div class="card border-0 shadow-sm mb-4">
-                <div class="card-header bg-light">
-                    <h6 class="mb-0">
-                        <i class="bi bi-list-ul me-1"></i>
-                        Navegação
-                    </h6>
-                </div>
-                <div class="card-body p-0">
-                    <div class="list-group list-group-flush">
-                        <a href="https://unb-mds.github.io/Projeto-B.I.I.A/" class="list-group-item list-group-item-action">
-                            <i class="bi bi-arrow-up me-2"></i>
-                            Voltar para B.I.I.A - Buscadora de Investimentos em Inteligência Artificial
-                        </a>
-                        
-                        
-                        
-                        
-                        <a href="https://unb-mds.github.io/Projeto-B.I.I.A/arquitetura/" class="list-group-item list-group-item-action ">
-                            
-                            <i class="bi bi-file-text me-2"></i>
-                            
-                            Arquitetura
-                        </a>
-                        
-                        <a href="https://unb-mds.github.io/Projeto-B.I.I.A/sprint/" class="list-group-item list-group-item-action ">
-                            
-                            <i class="bi bi-file-text me-2"></i>
-                            
-                            Sprints
-                        </a>
-                        
-                        <a href="https://unb-mds.github.io/Projeto-B.I.I.A/teste-urls/" class="list-group-item list-group-item-action active">
-                            
-                            <i class="bi bi-chevron-right me-2"></i>
-                            
-                            🔧 Teste de URLs - Versão Atualizada
-                        </a>
-                        
-                        <a href="https://unb-mds.github.io/Projeto-B.I.I.A/debug/" class="list-group-item list-group-item-action ">
-                            
-                            <i class="bi bi-file-text me-2"></i>
-                            
-                            Debug - Teste de URLs
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-            <div class="card border-0 shadow-sm">
-                <div class="card-header bg-primary text-white">
-                    <h6 class="mb-0">
-                        <i class="bi bi-link-45deg me-1"></i>
-                        Links Úteis
-                    </h6>
-                </div>
-                <div class="card-body p-0">
-                    <div class="list-group list-group-flush">
-                        <a href="https://unb-mds.github.io/Projeto-B.I.I.A/" class="list-group-item list-group-item-action">
-                            <i class="bi bi-house me-2"></i>
-                            Página Inicial
-                        </a>
-                        <a href="https://unb-mds.github.io/Projeto-B.I.I.A/sprint/" class="list-group-item list-group-item-action">
-                            <i class="bi bi-speedometer2 me-2"></i>
-                            Sprints
-                        </a>
-                        <a href="https://unb-mds.github.io/Projeto-B.I.I.A/arquitetura/" class="list-group-item list-group-item-action">
-                            <i class="bi bi-diagram-3 me-2"></i>
-                            Arquitetura
-                        </a>
-                        <a href="https://github.com/unb-mds/Projeto-B.I.I.A" target="_blank" class="list-group-item list-group-item-action">
-                            <i class="bi bi-github me-2"></i>
-                            Repositório
-                            <i class="bi bi-box-arrow-up-right ms-auto"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-        </div>
     </main>
-
-    
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 mb-4">
-                    <h5 class="text-light mb-3">
-                        <strong>B.I.I.A</strong>
-                    </h5>
-                    <p class="mb-3">Buscadora de Investimentos em Inteligência Artificial</p>
-                    <p class="text-light opacity-75">Sistema inteligente para análise e busca de investimentos em Inteligência Artificial</p>
-                </div>
-                <div class="col-lg-2 col-md-6 mb-4">
-                    <h6 class="text-uppercase mb-3 text-white-50">Navegação</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="https://unb-mds.github.io/Projeto-B.I.I.A/" class="text-light text-decoration-none opacity-75">Home</a></li>
-                        <li class="mb-2"><a href="https://unb-mds.github.io/Projeto-B.I.I.A/sprint/" class="text-light text-decoration-none opacity-75">Sprints</a></li>
-                        <li class="mb-2"><a href="https://unb-mds.github.io/Projeto-B.I.I.A/arquitetura/" class="text-light text-decoration-none opacity-75">Arquitetura</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h6 class="text-uppercase mb-3 text-white-50">Recursos</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="https://unb-mds.github.io/Projeto-B.I.I.A/arquitetura/decisoes/" class="text-light text-decoration-none opacity-75">Decisões</a></li>
-                        <li class="mb-2"><a href="https://unb-mds.github.io/Projeto-B.I.I.A/arquitetura/diagramas/" class="text-light text-decoration-none opacity-75">Diagramas</a></li>
-                        <li class="mb-2"><a href="https://unb-mds.github.io/Projeto-B.I.I.A/debug/" class="text-light text-decoration-none opacity-75">Debug</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <h6 class="text-uppercase mb-3 text-white-50">Contato</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <a href="https://github.com/unb-mds/Projeto-B.I.I.A" class="text-light text-decoration-none opacity-75" target="_blank">
-                                <i class="bi bi-github me-2"></i>GitHub
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <span class="text-light opacity-75">
-                                <i class="bi bi-building me-2"></i>UnB - MDS
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <hr class="my-4 opacity-25">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <p class="mb-0 opacity-75">&copy; 2025 B.I.I.A - Todos os direitos reservados</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <p class="mb-0 opacity-75">
-                        Desenvolvido com <span class="text-danger">❤</span> pela equipe 
-                        <a href="https://github.com/unb-mds" class="text-light text-decoration-none">UnB-MDS</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
