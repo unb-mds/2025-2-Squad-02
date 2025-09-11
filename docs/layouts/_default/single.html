@@ -1,3 +1,144 @@
 {{ define "main" }}
-    {{ .Content }}
+<div class="container">
+    <!-- Page Header -->
+    <div class="row">
+        <div class="col-12">
+            <nav aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    {{ if .Parent }}
+                    <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
+                    {{ end }}
+                    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                </ol>
+            </nav>
+            
+            <div class="card border-0 shadow-sm mb-5">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <h1 class="card-title mb-3">{{ .Title }}</h1>
+                            {{ if .Description }}
+                            <p class="lead text-muted mb-0">{{ .Description }}</p>
+                            {{ end }}
+                        </div>
+                        <div class="col-md-4 text-md-end">
+                            {{ if .Date }}
+                            <div class="text-muted">
+                                <i class="bi bi-calendar me-1"></i>
+                                {{ .Date.Format "02/01/2006" }}
+                            </div>
+                            {{ end }}
+                            
+                            {{ if .Params.reading_time }}
+                            <div class="text-muted mt-1">
+                                <i class="bi bi-clock me-1"></i>
+                                {{ .ReadingTime }} min de leitura
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="content">
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tags -->
+            {{ if .Params.tags }}
+            <div class="card border-0 shadow-sm mt-4">
+                <div class="card-body">
+                    <h6 class="card-title">
+                        <i class="bi bi-tags me-1"></i>
+                        Tags
+                    </h6>
+                    <div class="tags">
+                        {{ range .Params.tags }}
+                        <span class="badge bg-primary me-2 mb-2">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+            <!-- Navigation Card -->
+            {{ if .Parent }}
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-header bg-light">
+                    <h6 class="mb-0">
+                        <i class="bi bi-list-ul me-1"></i>
+                        Navegação
+                    </h6>
+                </div>
+                <div class="card-body p-0">
+                    <div class="list-group list-group-flush">
+                        <a href="{{ .Parent.RelPermalink }}" class="list-group-item list-group-item-action">
+                            <i class="bi bi-arrow-up me-2"></i>
+                            Voltar para {{ .Parent.Title }}
+                        </a>
+                        
+                        {{ if .Parent.Pages }}
+                        {{ $currentPage := . }}
+                        {{ range .Parent.Pages }}
+                        <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action {{ if eq . $currentPage }}active{{ end }}">
+                            {{ if eq . $currentPage }}
+                            <i class="bi bi-chevron-right me-2"></i>
+                            {{ else }}
+                            <i class="bi bi-file-text me-2"></i>
+                            {{ end }}
+                            {{ .Title }}
+                        </a>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+            
+            <!-- Quick Links -->
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h6 class="mb-0">
+                        <i class="bi bi-link-45deg me-1"></i>
+                        Links Úteis
+                    </h6>
+                </div>
+                <div class="card-body p-0">
+                    <div class="list-group list-group-flush">
+                        <a href="/" class="list-group-item list-group-item-action">
+                            <i class="bi bi-house me-2"></i>
+                            Página Inicial
+                        </a>
+                        <a href="/sprint/" class="list-group-item list-group-item-action">
+                            <i class="bi bi-speedometer2 me-2"></i>
+                            Sprints
+                        </a>
+                        <a href="/arquitetura/" class="list-group-item list-group-item-action">
+                            <i class="bi bi-diagram-3 me-2"></i>
+                            Arquitetura
+                        </a>
+                        <a href="https://github.com/unb-mds/Projeto-B.I.I.A" target="_blank" class="list-group-item list-group-item-action">
+                            <i class="bi bi-github me-2"></i>
+                            Repositório
+                            <i class="bi bi-box-arrow-up-right ms-auto"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {{ end }}

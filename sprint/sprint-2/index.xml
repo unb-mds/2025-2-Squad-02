@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sprint 2 on MDS - Documentação</title>
+    <link>http://localhost:1313/Projeto-B.I.I.A/sprint/sprint-2/</link>
+    <description>Recent content in Sprint 2 on MDS - Documentação</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/Projeto-B.I.I.A/sprint/sprint-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Issues da Sprint 2</title>
+      <link>http://localhost:1313/Projeto-B.I.I.A/sprint/sprint-2/issues/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Projeto-B.I.I.A/sprint/sprint-2/issues/</guid>
+      <description>&lt;h1 id=&#34;issues-da-sprint-2&#34;&gt;Issues da Sprint 2&lt;/h1&gt;&#xA;&lt;p&gt;Em desenvolvimento&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Material de Estudos da Sprint 2</title>
+      <link>http://localhost:1313/Projeto-B.I.I.A/sprint/sprint-2/material-estudos/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Projeto-B.I.I.A/sprint/sprint-2/material-estudos/</guid>
+      <description>&lt;h1 id=&#34;material-de-estudos-da-sprint-2&#34;&gt;Material de Estudos da Sprint 2&lt;/h1&gt;&#xA;&lt;p&gt;Em desenvolvimento&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reuniões da Sprint 2</title>
+      <link>http://localhost:1313/Projeto-B.I.I.A/sprint/sprint-2/reunioes/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Projeto-B.I.I.A/sprint/sprint-2/reunioes/</guid>
+      <description>&lt;h1 id=&#34;reuniões-da-sprint-2&#34;&gt;Reuniões da Sprint 2&lt;/h1&gt;&#xA;&lt;p&gt;Em desenvolvimento&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

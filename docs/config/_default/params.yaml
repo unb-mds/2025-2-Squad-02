@@ -1,1 +1,25 @@
 _merge: deep
+
+# Site settings
+title: "B.I.I.A - Buscadora de Investimentos em IA"
+description: "Sistema inteligente para análise e busca de investimentos em Inteligência Artificial"
+
+# Design settings
+design:
+  header:
+    sticky: true
+    style: "light"
+  footer:
+    style: "dark"
+  hero:
+    style: "center"
+    background: true
+  colors:
+    primary: "#6c757d"
+    secondary: "#adb5bd"
+    success: "#198754"
+    danger: "#dc3545"
+    warning: "#ffc107"
+    info: "#0dcaf0"
+    light: "#f8f9fa"
+    dark: "#212529"

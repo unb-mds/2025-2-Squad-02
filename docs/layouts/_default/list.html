@@ -1,3 +1,95 @@
 {{ define "main" }}
-    {{ .Content }}
+<div class="container">
+    <!-- Page Header with same style as home hero -->
+    <div class="row">
+        <div class="col-12">
+            <section class="hero text-center mb-5" style="margin-bottom: 3rem !important; margin-top: -3rem;">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h1 class="display-5 fw-bold mb-3">{{ .Title }}</h1>
+                            {{ if .Description }}
+                            <p class="lead opacity-90">{{ .Description }}</p>
+                            {{ else if .Content }}
+                            <div class="lead opacity-90">{{ .Content }}</div>
+                            {{ else }}
+                            <p class="lead opacity-90">Documentação {{ .Title }} do Projeto</p>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Content List -->
+    {{ if .Pages }}
+    <div class="row">
+        <div class="col-12">
+            <h2 class="section-title mb-4">
+                <i class="bi bi-list-ul text-primary me-2"></i>
+                Conteúdo Disponível
+            </h2>
+        </div>
+    </div>
+    
+    <div class="row g-4">
+        {{ range .Pages }}
+        <div class="col-lg-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start mb-3">
+                        <h5 class="card-title mb-0">
+                            <a href="{{ .RelPermalink }}" class="text-decoration-none">{{ .Title }}</a>
+                        </h5>
+                        {{ if .Date }}
+                        <small class="text-muted">{{ .Date.Format "02/01/2006" }}</small>
+                        {{ end }}
+                    </div>
+                    
+                    {{ if .Description }}
+                    <p class="card-text text-muted">{{ .Description }}</p>
+                    {{ else if .Summary }}
+                    <p class="card-text text-muted">{{ .Summary }}</p>
+                    {{ end }}
+                    
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <a href="{{ .RelPermalink }}" class="btn btn-primary btn-sm">
+                            <i class="bi bi-arrow-right me-1"></i>
+                            Acessar
+                        </a>
+                        
+                        {{ if .Params.tags }}
+                        <div class="tags">
+                            {{ range .Params.tags }}
+                            <span class="badge bg-secondary me-1">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    
+    {{ else }}
+    <!-- Empty State -->
+    <div class="row">
+        <div class="col-lg-6 mx-auto text-center">
+            <div class="card border-0">
+                <div class="card-body py-5">
+                    <i class="bi bi-folder2-open text-muted" style="font-size: 4rem;"></i>
+                    <h3 class="mt-3 text-muted">Nenhum conteúdo encontrado</h3>
+                    <p class="text-muted">Esta seção ainda não possui conteúdo disponível.</p>
+                    <a href="/" class="btn btn-primary">
+                        <i class="bi bi-house me-1"></i>
+                        Voltar ao Início
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
 {{ end }}

@@ -1,3 +1,132 @@
 {{ define "main" }}
-    {{ .Content }}
+<div class="container">
+    <!-- Features Section -->
+    <section class="content-section">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title">Sobre o Projeto B.I.I.A</h2>
+                <p class="lead text-muted">Sistema inteligente para análise e busca de investimentos em Inteligência Artificial</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <i class="bi bi-search text-primary" style="font-size: 3rem;"></i>
+                        </div>
+                        <h5 class="card-title">Busca Inteligente</h5>
+                        <p class="card-text">Sistema avançado de busca e análise de oportunidades de investimento em startups de IA.</p>
+                        <a href="/arquitetura/" class="btn btn-outline-primary">
+                            <i class="bi bi-arrow-right me-1"></i>Saiba Mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <i class="bi bi-speedometer2 text-success" style="font-size: 3rem;"></i>
+                        </div>
+                        <h5 class="card-title">Desenvolvimento Ágil</h5>
+                        <p class="card-text">Acompanhe o progresso do projeto através de sprints organizadas e documentação detalhada.</p>
+                        <a href="/sprint/" class="btn btn-outline-success">
+                            <i class="bi bi-calendar-event me-1"></i>Ver Sprints
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <i class="bi bi-diagram-3 text-info" style="font-size: 3rem;"></i>
+                        </div>
+                        <h5 class="card-title">Arquitetura Robusta</h5>
+                        <p class="card-text">Documentação completa da arquitetura, decisões técnicas e diagramas do sistema.</p>
+                        <a href="/arquitetura/" class="btn btn-outline-info">
+                            <i class="bi bi-diagram-3 me-1"></i>Explorar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content from markdown -->
+    <section class="content-section">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="content-section">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="section-title text-center">Links Rápidos</h3>
+            </div>
+        </div>
+        
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="list-group">
+                    <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="mb-1">Sprint Atual</h6>
+                            <p class="mb-1 text-muted">Acompanhe o desenvolvimento em andamento</p>
+                        </div>
+                        <a href="/sprint/" class="btn btn-sm btn-primary">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="mb-1">Decisões Arquiteturais</h6>
+                            <p class="mb-1 text-muted">Documentação de decisões técnicas</p>
+                        </div>
+                        <a href="/arquitetura/decisoes/" class="btn btn-sm btn-outline-secondary">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="list-group">
+                    <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="mb-1">Diagramas do Sistema</h6>
+                            <p class="mb-1 text-muted">Visualização da arquitetura</p>
+                        </div>
+                        <a href="/arquitetura/diagramas/" class="btn btn-sm btn-outline-secondary">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="mb-1">Repositório GitHub</h6>
+                            <p class="mb-1 text-muted">Código fonte do projeto</p>
+                        </div>
+                        <a href="https://github.com/unb-mds/Projeto-B.I.I.A" target="_blank" class="btn btn-sm btn-dark">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 {{ end }}
