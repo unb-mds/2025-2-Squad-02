@@ -1,5 +1,5 @@
 
-# Projeto B.I.I.A
+# Projeto P.I.T.E.R
 
 "Plataforma web para análise de dados públicos municipais relacionados à tecnologia educacional"
 
