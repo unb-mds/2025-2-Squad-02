@@ -1,10 +1,10 @@
 ---
-title: "P.I.T.E.R - Buscadora de Investimentos em Inteligência Artificial"
-description: "Plataforma web para análise de atos públicos municipais relacionados à tecnologia educacional"
+title: "P.I.T.E.R"
+description: "Procurador de Investimentos na Educação Regional"
 date: 2025-09-09
 draft: false
 
-# P.I.T.E.R - Buscadora de Investimentos em Inteligência Artificial
+# P.I.T.E.R
 ---
 
 ## Sobre o Projeto
@@ -14,39 +14,3 @@ Desenvolvimento de uma **plataforma web dinâmica** para monitoramento e anális
 ## Objetivo Principal
 
 Transformar o relatório estático sobre tecnologias educacionais do Querido Diário em uma **plataforma dinâmica, automatizada e interativa** que permita o acompanhamento contínuo de investimentos e políticas públicas de tecnologia educacional nos municípios brasileiros.
-
-## Funcionalidades Principais
-
-### Coleta Automatizada
-- Integração com API do Querido Diário
-- Busca por palavras-chave específicas
-- Armazenamento estruturado em JSON
-
-### Análise Inteligente
-- Classificação automática via IA
-- Extração de entidades relevantes
-- Análise qualitativa do impacto
-- Geração de métricas
-
-### Visualização Interativa
-- Dashboard com gráficos e tabelas
-- Timeline por município
-- Comparativos municipais
-- Rankings e tendências
-
-### Automação Completa
-- Execução via GitHub Actions
-- Atualização diária dos dados
-- Deploy automático
-
-## Monitoramento
-
-Tipos de atos públicos monitorados:
-- Contratos e licitações de tecnologia
-- Decretos sobre inclusão digital
-- Decisões de infraestrutura tecnológica
-- Investimentos e orçamentos
-
-## Navegação
-- [Sprints](/sprint) - Acompanhamento do desenvolvimento
-- [Arquitetura](/arquitetura) - Documentação técnica

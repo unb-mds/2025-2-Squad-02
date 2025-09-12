@@ -1,6 +1,6 @@
 baseURL: "https://unb-mds.github.io/Projeto-P.I.T.E.R/"
 languageCode: "pt-br"
-title: "P.I.T.E.R - Radar das tecnologias na educação nos municípios"
+title: "P.I.T.E.R"
 
 # Configurações básicas
 disableKinds: ["taxonomy", "term"]
