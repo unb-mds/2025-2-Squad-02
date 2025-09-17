@@ -1,7 +1,7 @@
 _merge: deep
 
 # Site settings
-title: "P.I.T.E.R - Radar das tecnologias na educação nos municípios"
+title: "P.I.T.E.R - Procurador de Investimentos em Tecnologias na Educação Regional"
 description: "Sistema inteligente para análise e busca de investimentos em Inteligência Artificial"
 baseURL: "https://unb-mds.github.io/Projeto-P.I.T.E.R/"
 
