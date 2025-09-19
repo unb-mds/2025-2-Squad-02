@@ -20,6 +20,4 @@ draft: false
 - Backlog inicial do produto
 
 ## Documentação
-- [Reuniões](./reunioes)
 - [Issues](./issues)
-- [Material de Estudos](./material-estudos)

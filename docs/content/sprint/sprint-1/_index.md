@@ -22,4 +22,3 @@ draft: false
 ## Documentação
 - [Reuniões](./reunioes)
 - [Issues](./issues)
-- [Material de Estudos](./material-estudos)
