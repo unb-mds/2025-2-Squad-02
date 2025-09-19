@@ -1,7 +1,7 @@
 ---
 title: "Sprint 0"
 description: "Planejamento e Definição do Projeto"
-date: 2025-09-09
+date: 2025-08-27
 draft: false
 ---
 

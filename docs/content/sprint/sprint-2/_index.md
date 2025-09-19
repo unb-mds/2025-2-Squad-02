@@ -1,7 +1,7 @@
 ---
 title: "Sprint 2"
 description: "Implementação das Funcionalidades Core"
-date: 2025-09-09
+date: 2025-09-10
 draft: false
 ---
 

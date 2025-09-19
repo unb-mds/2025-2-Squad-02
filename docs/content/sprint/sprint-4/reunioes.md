@@ -7,18 +7,4 @@ draft: false
 
 # Reuniões da Sprint 4
 
-## Relatório da Reunião
-
-*Não documentado*
-
-## Resumo
-
-*Não documentado*
-
-- Sprint: 4
-- Período: 24/09/25 a 01/10/25
-- Status: Planejado
-
-## Daily Scrum
-
-*Não registrada*
+Não documentado

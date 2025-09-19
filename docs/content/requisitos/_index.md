@@ -7,50 +7,28 @@ draft: false
 
 # Requisitos do Sistema
 
-## 🚧 Página em Construção
+## Visão Geral
 
-Esta página está sendo desenvolvida e conterá toda a documentação de requisitos do P.I.T.E.R.
+Documentação completa dos requisitos do sistema P.I.T.E.R, organizados por tipo e prioridade:
 
-## 📋 Conteúdo Planejado
+- **Story Maps**: Mapeamento visual das histórias de usuário
+- **Requisitos Funcionais**: Funcionalidades específicas do sistema
+- **Requisitos Não Funcionais**: Qualidades e restrições do sistema
+- **Personas**: Perfis dos usuários do sistema
 
-### Story Map
-- **Visualização completa** do mapeamento de histórias de usuário
-- **Jornadas do usuário** organizadas por personas
-- **Priorização** das funcionalidades por valor de negócio
+---
 
-### Requisitos Funcionais
-- **RF-001**: Busca inteligente de investimentos
-- **RF-002**: Análise de dados do Querido Diário
-- **RF-003**: Dashboard interativo
-- **RF-004**: Relatórios automatizados
+## Story Maps
+**Status:** Em desenvolvimento  
+**Foco:** Visualização das histórias de usuário organizadas por jornadas
 
-### Requisitos Não Funcionais
-- **RNF-001**: Performance e escalabilidade
-- **RNF-002**: Segurança e privacidade
-- **RNF-003**: Usabilidade e acessibilidade
-- **RNF-004**: Disponibilidade e confiabilidade
+### Objetivos Principais:
+- Mapeamento completo das funcionalidades
+- Organização por personas e jornadas
+- Priorização por valor de negócio
+- Visualização da experiência do usuário
 
-### Critérios de Aceitação
-- **Definição de Done** para cada história
-- **Cenários de teste** automatizados
-- **Validação** com stakeholders
-
-## 🎯 Personas Identificadas
-
-### 👥 Usuários Primários
-- **Pesquisadores Educacionais**: Analistas que buscam dados sobre investimentos
-- **Gestores Públicos**: Tomadores de decisão em políticas educacionais
-- **Jornalistas**: Profissionais que cobrem educação pública
-
-### 👥 Usuários Secundários
-- **Estudantes**: Pesquisadores acadêmicos
-- **ONGs**: Organizações focadas em educação
-- **Consultores**: Especialistas em políticas públicas
-
-## 📊 Story Map
-
-*Em breve: Imagem interativa do mapeamento de histórias de usuário*
-
+### Conteúdo:
 ```
 ┌─────────────────┬─────────────────┬─────────────────┬─────────────────┐
 │   DESCOBRIR     │    ANALISAR     │   MONITORAR     │   COMPARTILHAR  │
@@ -61,28 +39,58 @@ Esta página está sendo desenvolvida e conterá toda a documentação de requis
 └─────────────────┴─────────────────┴─────────────────┴─────────────────┘
 ```
 
-## 🔄 Status do Levantamento
+---
 
-- [ ] **Story Map**: Em desenvolvimento
-- [ ] **Requisitos Funcionais**: A definir
-- [ ] **Requisitos Não Funcionais**: A definir
-- [ ] **Critérios de Aceitação**: Pendente
-- [ ] **Prototipagem**: Planejado
+## Personas
+**Status:** Em desenvolvimento  
+**Foco:** Definição dos perfis de usuário do sistema
 
-## 📖 Metodologia
+### Usuários Primários:
+- **Pesquisadores Educacionais**: Analistas que buscam dados sobre investimentos
+- **Gestores Públicos**: Tomadores de decisão em políticas educacionais
+- **Jornalistas**: Profissionais que cobrem educação pública
 
-### Levantamento de Requisitos
-- **Design Thinking**: Workshops de ideação
-- **User Story Mapping**: Mapeamento colaborativo
-- **Entrevistas**: Com stakeholders chave
-- **Benchmarking**: Análise de soluções similares
-
-### Validação
-- **Prototipagem**: Mockups interativos
-- **Feedback Loops**: Revisões iterativas
-- **Testes de Usabilidade**: Com usuários reais
+### Usuários Secundários:
+- **Estudantes**: Pesquisadores acadêmicos
+- **ONGs**: Organizações focadas em educação
+- **Consultores**: Especialistas em políticas públicas
 
 ---
 
-**📅 Última Atualização**: 17 de setembro de 2025  
-**👥 Responsável**: Equipe de Produto P.I.T.E.R
+## Requisitos Funcionais
+**Status:** Em desenvolvimento  
+**Foco:** Especificação das funcionalidades do sistema
+
+### Funcionalidades Principais:
+- **RF-001**: Busca inteligente de investimentos
+- **RF-002**: Análise de dados do Querido Diário
+- **RF-003**: Dashboard interativo
+- **RF-004**: Relatórios automatizados
+
+---
+
+## Requisitos Não Funcionais
+**Status:** Em desenvolvimento  
+**Foco:** Qualidades e restrições técnicas do sistema
+
+### Categorias:
+- **RNF-001**: Performance e escalabilidade
+- **RNF-002**: Segurança e privacidade
+- **RNF-003**: Usabilidade e acessibilidade
+- **RNF-004**: Disponibilidade e confiabilidade
+
+---
+
+## Critérios de Aceitação
+**Status:** Planejado  
+**Foco:** Validação e testes dos requisitos
+
+### Metodologia:
+- **Design Thinking**: Workshops de ideação
+- **User Story Mapping**: Mapeamento colaborativo
+- **Entrevistas**: Com stakeholders chave
+- **Prototipagem**: Mockups interativos
+
+---
+
+*Para informações sobre a arquitetura do sistema, visite nossa seção de [Arquitetura](/arquitetura/).*

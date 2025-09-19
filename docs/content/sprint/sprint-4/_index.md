@@ -1,7 +1,7 @@
 ---
 title: "Sprint 4"
 description: "Finalização e Entrega"
-date: 2025-09-19
+date: 2025-09-24
 draft: false
 ---
 

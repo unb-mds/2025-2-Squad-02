@@ -116,10 +116,23 @@
             font-weight: var(--font-weight-medium);
             font-size: var(--font-size-base);
             transition: color 0.3s ease;
+            padding: 0.5rem 1rem !important; /* Increased horizontal padding */
+            margin: 0 0.25rem; /* Added margin between items */
         }
         
         .navbar-nav .nav-link:hover {
             color: var(--bs-primary) !important;
+        }
+        
+        /* Center navbar items on larger screens */
+        @media (min-width: 992px) {
+            .navbar-nav {
+                margin: 0 auto !important;
+            }
+            
+            .navbar-collapse {
+                justify-content: center;
+            }
         }
         
         /* Hero section */
@@ -213,6 +226,38 @@
         .btn:focus,
         .btn.focus {
             box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25) !important;
+        }
+        
+        /* Force all blue elements to gray */
+        .text-primary, .text-primary a {
+            color: var(--bs-primary) !important;
+        }
+        
+        .bg-primary {
+            background-color: var(--bs-primary) !important;
+            border-color: var(--bs-primary) !important;
+        }
+        
+        .border-primary {
+            border-color: var(--bs-primary) !important;
+        }
+        
+        /* Links Úteis section styling */
+        .bg-primary h4, .bg-primary h5 {
+            color: white !important;
+        }
+        
+        /* Override any remaining Bootstrap blue colors */
+        .btn-primary, .btn-primary:visited {
+            background-color: var(--bs-primary) !important;
+            border-color: var(--bs-primary) !important;
+            color: white !important;
+        }
+        
+        .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+            background-color: #5a6268 !important;
+            border-color: #5a6268 !important;
+            color: white !important;
         }
         
         .navbar-light .navbar-toggler {
@@ -392,39 +437,39 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link {{ if .IsHome }}active text-dark fw-semibold{{ end }}" href="{{ "/" | relURL }}">
-                            <i class="bi bi-house-fill me-1"></i>Home
+                            Home
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ "/sprint/" | relURL }}">
-                            <i class="bi bi-speedometer2 me-1"></i>Sprints
+                            Sprints
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ "/requisitos/" | relURL }}">
-                            <i class="bi bi-list-check me-1"></i>Requisitos
+                            Requisitos
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ "/arquitetura/" | relURL }}">
-                            <i class="bi bi-diagram-3 me-1"></i>Arquitetura
+                            Arquitetura
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ "/material-estudos/" | relURL }}">
-                            <i class="bi bi-book me-1"></i>Material de Estudos
-                        </a>
-                    </li>
-                    <li class="nav-item ms-2">
-                        <a class="btn btn-primary btn-sm text-white px-3" href="https://github.com/unb-mds/Projeto-P.I.T.E.R" target="_blank">
-                            <i class="bi bi-github me-1"></i>GitHub
+                            Material de Estudos
                         </a>
                     </li>
                 </ul>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-muted border-start ps-3" href="https://github.com/unb-mds/Projeto-P.I.T.E.R" target="_blank">
+                        GitHub
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
@@ -437,14 +482,9 @@
                 <div class="col-lg-8">
                     <h1 class="display-4 fw-bold mb-4">{{ .Site.Params.title | default .Site.Title }}</h1>
                     <p class="lead mb-4">{{ .Site.Params.description }}</p>
-                    <div class="d-flex gap-3 justify-content-center">
-                        <a href="{{ "/sprint/" | relURL }}" class="btn btn-light btn-lg px-4">
-                            <i class="bi bi-speedometer2 me-2"></i>Ver Sprints
-                        </a>
-                        <a href="{{ "/arquitetura/" | relURL }}" class="btn btn-outline-light btn-lg px-4">
-                            <i class="bi bi-diagram-3 me-2"></i>Arquitetura
-                        </a>
-                    </div>
+                    <a href="{{ "/sprint/" | relURL }}" class="btn btn-light btn-lg px-4">
+                        Ver Sprints
+                    </a>
                 </div>
             </div>
         </div>
@@ -466,27 +506,20 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-6 mb-4">
                     <h5 class="text-light mb-3">
-                        <strong>P.I.T.E.R</strong> - Procurador de investimentos em inteligência artificial
+                        <strong>P.I.T.E.R</strong>
                     </h5>
+                    <p class="opacity-75 mb-0">Procurador de Investimentos em Tecnologias na Educação Regional</p>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <h6 class="text-uppercase mb-3 text-white-50">Navegação</h6>
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="{{ "/" | relURL }}" class="text-light text-decoration-none opacity-75">Home</a></li>
                         <li class="mb-2"><a href="{{ "/sprint/" | relURL }}" class="text-light text-decoration-none opacity-75">Sprints</a></li>
                         <li class="mb-2"><a href="{{ "/requisitos/" | relURL }}" class="text-light text-decoration-none opacity-75">Requisitos</a></li>
                         <li class="mb-2"><a href="{{ "/arquitetura/" | relURL }}" class="text-light text-decoration-none opacity-75">Arquitetura</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h6 class="text-uppercase mb-3 text-white-50">Recursos</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="{{ "/arquitetura/decisoes/" | relURL }}" class="text-light text-decoration-none opacity-75">Decisões</a></li>
-                        <li class="mb-2"><a href="{{ "/arquitetura/diagramas/" | relURL }}" class="text-light text-decoration-none opacity-75">Diagramas</a></li>
                         <li class="mb-2"><a href="{{ "/material-estudos/" | relURL }}" class="text-light text-decoration-none opacity-75">Material de Estudos</a></li>
-                        <li class="mb-2"><a href="{{ "/debug/" | relURL }}" class="text-light text-decoration-none opacity-75">Debug</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 mb-4">
@@ -494,12 +527,12 @@
                     <ul class="list-unstyled">
                         <li class="mb-2">
                             <a href="https://github.com/unb-mds/Projeto-P.I.T.E.R" class="text-light text-decoration-none opacity-75" target="_blank">
-                                <i class="bi bi-github me-2"></i>GitHub
+                                GitHub
                             </a>
                         </li>
                         <li class="mb-2">
                             <span class="text-light opacity-75">
-                                <i class="bi bi-building me-2"></i>UnB - MDS
+                                UnB - MDS
                             </span>
                         </li>
                     </ul>
@@ -508,11 +541,11 @@
             <hr class="my-4 opacity-25">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <p class="mb-0 opacity-75">📖 {{ now.Year }} P.I.T.E.R - Projeto de Software Livre</p>
+                    <p class="mb-0 opacity-75">{{ now.Year }} P.I.T.E.R - Projeto de Software Livre</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="mb-0 opacity-75">
-                        Desenvolvido com <span class="text-danger">❤</span> pela equipe 
+                        Desenvolvido pela equipe 
                         <a href="https://github.com/unb-mds" class="text-light text-decoration-none">UnB-MDS</a>
                     </p>
                 </div>

@@ -7,143 +7,143 @@ draft: false
 
 # Material de Estudos
 
-## 📚 Recursos de Aprendizado
+## Visão Geral
 
-Esta seção concentra todos os materiais de estudo, referências e recursos educacionais utilizados no desenvolvimento do P.I.T.E.R.
+Recursos e materiais de apoio para o desenvolvimento do projeto P.I.T.E.R, organizados por área de conhecimento:
 
-## 🎯 Categorias
-
-### 📊 Análise de Dados e BI
-- **Conceitos Fundamentais**
-  - Business Intelligence e Analytics
-  - Data Mining e Machine Learning
-  - Visualização de Dados
-
-### 🤖 Inteligência Artificial
-- **Frameworks e Tecnologias**
-  - Processamento de Linguagem Natural (NLP)
-  - Algoritmos de Busca Inteligente
-  - APIs de IA e Integração
-
-### 🏛️ Dados Governamentais
-- **Projeto Querido Diário**
-  - Estrutura dos dados públicos
-  - APIs e formatos de dados
-  - Metodologias de extração
-
-### 💻 Desenvolvimento Web
-- **Frontend**
-  - React.js e frameworks modernos
-  - UX/UI para dashboards
-  - Responsive design
-
-- **Backend**
-  - APIs REST e GraphQL
-  - Microserviços
-  - Integração de dados
-
-### 📈 Visualização e Dashboards
-- **Ferramentas**
-  - Chart.js e bibliotecas de gráficos
-  - Dashboards interativos
-  - Storytelling com dados
-
-## 📖 Bibliografia Recomendada
-
-### 📘 Livros
-- **"Hands-On Machine Learning"** - Aurélien Géron
-- **"Data Science for Business"** - Foster Provost
-- **"The Visual Display of Quantitative Information"** - Edward Tufte
-
-### 🌐 Recursos Online
-- **Coursera**: Cursos de Data Science e IA
-- **Kaggle Learn**: Módulos práticos de ML
-- **freeCodeCamp**: Desenvolvimento web completo
-
-### 📄 Papers e Artigos
-- Análise de investimentos em educação
-- Tecnologias emergentes na educação pública
-- Políticas públicas digitais
-
-## 🛠️ Ferramentas de Desenvolvimento
-
-### 🔧 Desenvolvimento
-- **Git e GitHub**: Controle de versão
-- **VS Code**: Editor e extensões
-- **Docker**: Containerização
-- **Hugo**: Gerador de sites estáticos
-
-### 📊 Análise de Dados
-- **Python**: Pandas, NumPy, Scikit-learn
-- **R**: Análise estatística
-- **Jupyter**: Notebooks interativos
-
-### 🎨 Design e Prototipagem
-- **Figma**: Design de interfaces
-- **Draw.io**: Diagramas e fluxos
-- **Miro**: Colaboração visual
-
-## 📅 Cronograma de Estudos
-
-### Sprint 0 - Fundamentos
-- [x] Metodologias ágeis
-- [x] Git e GitHub
-- [x] Estruturas de projeto
-
-### Sprint 1 - Tecnologias Core
-- [x] Hugo e sites estáticos
-- [x] APIs REST
-- [x] Fundamentos de BI
-
-### Sprint 2 - Desenvolvimento
-- [ ] Frameworks frontend
-- [ ] Processamento de dados
-- [ ] Deploy e CI/CD
-
-### Próximas Sprints
-- [ ] Machine Learning aplicado
-- [ ] Otimização de performance
-- [ ] Segurança e privacidade
-
-## 🔗 Links Úteis
-
-### 📚 Documentação Oficial
-- [Hugo Documentation](https://gohugo.io/documentation/)
-- [Bootstrap Components](https://getbootstrap.com/docs/)
-- [GitHub Pages](https://docs.github.com/pages)
-
-### 🎓 Tutoriais e Cursos
-- [freeCodeCamp - Web Development](https://freecodecamp.org)
-- [Kaggle Learn - Data Science](https://kaggle.com/learn)
-- [MDN Web Docs](https://developer.mozilla.org)
-
-### 🗂️ Repositórios de Referência
-- [Querido Diário](https://github.com/okfn-brasil/querido-diario)
-- [Hugo Themes](https://themes.gohugo.io)
-- [Bootstrap Examples](https://getbootstrap.com/docs/examples/)
-
-## 📝 Anotações e Insights
-
-### 💡 Aprendizados Importantes
-- Importância da organização de dados governamentais
-- UX/UI focado em análise de dados
-- Metodologias ágeis aplicadas a projetos de BI
-
-### 🚧 Desafios Identificados
-- Integração de múltiplas fontes de dados
-- Performance com grandes volumes
-- Acessibilidade em dashboards complexos
-
-### 🎯 Próximos Focos de Estudo
-- Otimização de queries e performance
-- Técnicas avançadas de visualização
-- Metodologias de validação com usuários
+- **Análise de Dados e BI**: Fundamentos de Business Intelligence
+- **Inteligência Artificial**: Tecnologias de IA aplicadas ao projeto
+- **Desenvolvimento Web**: Frontend e Backend modernos
+- **Ferramentas**: Tecnologias utilizadas no desenvolvimento
 
 ---
 
-**📅 Última Atualização**: 17 de setembro de 2025  
-**👥 Contribuidores**: Toda a equipe P.I.T.E.R
+## Análise de Dados e BI
+**Status:** Em desenvolvimento  
+**Foco:** Conceitos fundamentais de análise de dados
+
+### Objetivos Principais:
+- Business Intelligence e Analytics
+- Data Mining e Machine Learning
+- Visualização de Dados
+- Storytelling com dados
+
+### Recursos Disponíveis:
+- Conceitos teóricos fundamentais
+- Ferramentas de análise modernas
+- Técnicas de visualização
+- Casos de uso práticos
 
 ---
 
-*💡 **Dica**: Este material é constantemente atualizado conforme o projeto evolui. Contribuições e sugestões são sempre bem-vindas!*
+## Inteligência Artificial
+**Status:** Em desenvolvimento  
+**Foco:** Tecnologias de IA aplicadas ao projeto
+
+### Objetivos Principais:
+- Processamento de Linguagem Natural (NLP)
+- Algoritmos de Busca Inteligente
+- APIs de IA e Integração
+- Machine Learning aplicado
+
+### Recursos Disponíveis:
+- Frameworks e bibliotecas
+- APIs e serviços de IA
+- Implementação prática
+- Casos de estudo
+
+---
+
+## Desenvolvimento Web
+**Status:** Em desenvolvimento  
+**Foco:** Tecnologias frontend e backend
+
+### Frontend:
+- React.js e frameworks modernos
+- UX/UI para dashboards
+- Responsive design
+- Bibliotecas de visualização
+
+### Backend:
+- APIs REST e GraphQL
+- Microserviços
+- Integração de dados
+- Performance e escalabilidade
+
+---
+
+## Dados Governamentais
+**Status:** Em desenvolvimento  
+**Foco:** Projeto Querido Diário e dados públicos
+
+### Objetivos Principais:
+- Estrutura dos dados públicos
+- APIs e formatos de dados
+- Metodologias de extração
+- Processamento e análise
+
+### Recursos Disponíveis:
+- Documentação oficial do Querido Diário
+- Exemplos de uso das APIs
+- Técnicas de processamento
+- Casos de implementação
+
+---
+
+## Ferramentas de Desenvolvimento
+**Status:** Em desenvolvimento  
+**Foco:** Stack tecnológico do projeto
+
+### Desenvolvimento:
+- Git e GitHub para controle de versão
+- VS Code como editor principal
+- Docker para containerização
+- Hugo para documentação
+
+### Análise de Dados:
+- Python com Pandas e NumPy
+- Jupyter Notebooks
+- Bibliotecas de Machine Learning
+- Ferramentas de visualização
+
+---
+
+## Bibliografia e Recursos
+**Status:** Em desenvolvimento  
+**Foco:** Referências e materiais complementares
+
+### Livros Recomendados:
+- "Hands-On Machine Learning" - Aurélien Géron
+- "Data Science for Business" - Foster Provost
+- "The Visual Display of Quantitative Information" - Edward Tufte
+
+### Recursos Online:
+- Coursera: Cursos de Data Science e IA
+- Kaggle Learn: Módulos práticos de ML
+- freeCodeCamp: Desenvolvimento web completo
+
+---
+
+## Cronograma de Estudos
+**Status:** Em andamento  
+**Foco:** Organização temporal do aprendizado
+
+### Sprint 0 - Fundamentos:
+- Metodologias ágeis (Concluído)
+- Git e GitHub (Concluído)
+- Estruturas de projeto (Concluído)
+
+### Sprint 1 - Tecnologias Core:
+- Hugo e sites estáticos (Concluído)
+- APIs REST (Concluído)
+- Fundamentos de BI (Concluído)
+
+### Sprint 2 e seguintes:
+- Frameworks frontend
+- Processamento de dados
+- Deploy e CI/CD
+- Machine Learning aplicado
+
+---
+
+*Para informações sobre as sprints do projeto, visite nossa seção de [Sprints](/sprint/).*
