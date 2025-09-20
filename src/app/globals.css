@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais para P.I.T.E.R */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  background-color: #f3f4f6;
+  color: rgb(var(--foreground-rgb));
+}
+
+/* Estilos customizados para componentes */
+.loading-spinner {
+  @apply animate-spin rounded-full h-4 w-4 border-b-2 border-current;
+}
+
+/* Estilos para o gráfico */
+.chart-container canvas {
+  @apply max-h-96;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .filter-panel {
+    @apply w-full;
+  }
+}
