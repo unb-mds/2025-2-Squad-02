@@ -1,2 +1,29 @@
-node_modules
-node_modules/
+# Arquivo de configuração de ambiente local. NUNCA commite este arquivo.
+.env
+
+# Ambiente virtual do Python. Contém pacotes instalados e é específico da máquina.
+/venv
+venv/
+
+# Arquivos de cache do Python. São gerados automaticamente.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração e cache de editores de código
+.vscode/
+.idea/
+
+# Arquivos de log e bancos de dados temporários
+*.log
+*.sqlite3
+*.db
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de dependências e build do Node.js (para o frontend Next.js)
+/node_modules
+.next/
