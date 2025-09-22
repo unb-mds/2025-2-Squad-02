@@ -1,7 +1,7 @@
 from typing import Union
 from pydantic import BaseModel
 from fastapi import FastAPI
-from services.integration.piter_api_orchestrator import PiterApiOrchestrator
+from src.services.integration.piter_api_orchestrator import PiterApiOrchestrator
 
 from fastapi import FastAPI
 

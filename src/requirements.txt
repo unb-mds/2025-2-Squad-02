@@ -4,3 +4,12 @@ uvicorn[standard]
 requests
 spacy
 python-dotenv
+httpx
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+pytest
+pytest-cov
+black
+isort
+ruff
