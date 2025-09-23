@@ -13,3 +13,4 @@ pytest-cov
 black
 isort
 ruff
+typing-extensions
