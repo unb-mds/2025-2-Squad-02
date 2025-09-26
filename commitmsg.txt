@@ -1,0 +1,10 @@
+Adaptar o protótipo (issue #46)
+
+Adaptação do protótipo conforme discutido no Figma:
+https://www.figma.com/design/SrD9XAdENSImL4DVWmEZD5/Organiza%C3%A7%C3%A3o-MDS?node-id=1-3190&t=Uq6IviQm8iRVHSpG-0
+
+Alterações: ajustes de layout e mudança de prótotipo.
+
+Fixes #46
+
+Co-authored-by: Pedro Ramos Sousa Reis <pedro.rsr0308@gmail.com>
